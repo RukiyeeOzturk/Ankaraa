@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anadolu_medeniyet_muzesi_ro">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="394dp"
+        android:layout_height="179dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/anadolu_medeniyetleri_muzesi_ro" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="408dp"
+        android:layout_height="46dp"
+        android:text="Anadolu Medeniyetleri Müzesi"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="401dp"
+        android:layout_height="284dp"
+        android:layout_marginBottom="17dp"
+        android:text="Altındağ mevkiinde bulunan Anadolu Medeniyetleri müzesi, şehir merkezine 4 km uzaklıktadır. Ulaşım, Atatürk Bulvarı üzerinden sağlanır. Toplu taşıma araçları ile gitmek için Kızılay -Batıkent Metrosu ile Ulus durağında inilmesi gerekmektedir.
+
+1921 yılında açılan müze, Ankara seyahatinde mutlaka gezilmesi gereken tarihi yerlere eklenmelidir. Burası, Anadolu’da insanlık tarihinin anlaşılabilmesi için ülke genelindeki en önemli yerlerden biridir.
+
+Ünlü bereket tanrıçası ve dünyanın ilk şehir haritası gibi eserler de dahil olmak üzere, pek çok önemli tarihi eser bu müzede sergilenmektedir. Müzenin bir bölümünde, Hititliler ve Urartulara ait bir salon da bulunmaktadır.
+
+Mısırlılar, Babiller, Hititliler de dahil olmak üzere farklı medeniyetlerin kabartmalarının da sergilendiği Anadolu Medeniyetleri Müzesi, her yıl Ankara ve şehir dışından gelen yüzbinlerce ziyaretçiyi ağırlamaktadır."
+        app:layout_constraintBottom_toTopOf="@+id/button_ro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_ro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Tarihi Yerler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

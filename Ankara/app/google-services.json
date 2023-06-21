@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "647436218231",
+    "project_id": "ankara-873c5",
+    "storage_bucket": "ankara-873c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647436218231:android:39a79076fc9b31406c7b72",
+        "android_client_info": {
+          "package_name": "com.example.ankara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647436218231-stja7i9qfku0o6i5ml62q0ta690trokp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA32wVWTtvboXcn7VeBwYHKMtWH48YeocY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647436218231-stja7i9qfku0o6i5ml62q0ta690trokp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

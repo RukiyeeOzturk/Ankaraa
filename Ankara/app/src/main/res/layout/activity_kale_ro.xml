@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kale_ro">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="196dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="408dp"
+        android:layout_height="46dp"
+        android:text="Kale Mahallesi"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="395dp"
+        android:layout_height="287dp"
+        android:layout_marginBottom="17dp"
+        android:text="Altındağ ilçesinde bulunan Kale Mahallesi, şehir merkezine 4 km uzaklıktadır ve ulaşım Atatürk Bulvarı ile sağlanmaktadır. Toplu taşıma araçları ile gitmek için Kızılay – Batıkent metrosu ile Ulus durağında inilmesi gerekmektedir.
+
+Kale Mahallesi’nin sokaklarında dolaşmak, Ankara’da tarihi bir gezi için yapılabilecek en etkileyici şeylerden biridir. Bizans Dönemi’nden kalma olan bu mahalle, yükselen surları ile hala gösterişli bir görünüme sahiptir.
+
+Arnavut kaldırımlı sokakları, Osmanlı Dönemi’nden kalma eski ahşap evleri, Sark Kulesi, mazgallı surları ve Ankara manzaraları sunan kulesi de oldukça etkileyicidir. Kulenin olduğu yerden aşağı doğru inerken, çeşitli antika dükkanları ve kafeler de bulmak mümkündür. Kale Mahallesi, Ankara’da hediyelik eşya alışverişi yapmak için de idealdir.
+
+Kale Mahallesi’ne gelindiğinde, şehrin tarihi camilerinden biri olan Aslanhane Cami de hem çini mihrabı hem de ahşap mescidi ile görülmeye değerdir."
+        app:layout_constraintBottom_toTopOf="@+id/button_ro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_ro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Tarihi Yerler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="408dp"
+        android:layout_height="158dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.657"
+        app:srcCompat="@drawable/kale_mahallesi_ro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tarihce_ro">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="399dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:text="Ankara Tarihçesi"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="409dp"
+        android:layout_height="316dp"
+        android:layout_marginBottom="8dp"
+        android:text="Ankara ilk çağlardan itibaren, farklı medeniyetlerin hüküm sürdüğü bir  coğrafya ve sürekli bir yerleşmeye sahne olan bir kent…  Bugünkü Ankara kentinin kapladığı bölge ve çevresinde yapılan araştırmalar sonucundaki arkeolojik buluntular, Paleolitik dönemden başlamak üzere, Neolitik ve Bakır Çağı boyunca bölgede devam eden toplu yaşamın kültür değerleri olarak kabul edilmişlerdir.  Dolayısıyla şehrin yerleşik düzeni çok eskilere dayanmaktadır fakat bütün arkeolojik bulgulara rağmen şehrin kim tarafından ve ne zaman kurulduğu kesin olarak bilinmemektedir.23 Nisan 1920 tarihinde kurulan Türkiye Büyük Millet Meclisi, hükümet merkezini Ankara olarak ilan etmişti ve Ankara, İstiklal Savaşı’nın idare edildiği bir merkez haline gelmişti. 13 Ekim 1923’te çıkarılan kanun ile Ankara resmen yeni Türkiye’nin yeni başkenti olarak ilan edildi. Böylece kentin bugünkü gelişiminin de önü açılmış oldu.Milli Mücadele’nin sembol şehri Ankara’da, 29 Ekim 1923’te Cumhuriyet’in ilanından sonra hızla imar çalışmalarına başlandı. Köklü bir tarihe ve zengin bir kültürel mirasa sahip, pek çok medeniyete ev sahipliği yapmış bu güzel ve kadim şehir, yapılan ilk imar çalışmalarıyla daha yeni ve farklı bir görünüme kavuşmuş oldu ve bir kent olarak gelişiminin ilk adımları atılmış oldu."
+        app:layout_constraintBottom_toTopOf="@+id/button_ro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_ro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Ana Sayfa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="369dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tarih_e" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
